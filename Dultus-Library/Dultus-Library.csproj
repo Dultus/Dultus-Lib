@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Dultus_Library</RootNamespace>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="docfx.console" Version="2.59.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="DSharpPlus" Version="4.2.0-nightly-01062" />
+    <PackageReference Include="DSharpPlus.CommandsNext" Version="4.2.0-nightly-01062" />
+    <PackageReference Include="DSharpPlus.Interactivity" Version="4.2.0-nightly-01062" />
+    <PackageReference Include="DSharpPlus.SlashCommands" Version="4.2.0-nightly-01062" />
+  </ItemGroup>
+
+</Project>
